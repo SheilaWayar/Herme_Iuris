@@ -1,0 +1,10 @@
+{
+  "description": "Herme Iuris simplifies legal concepts for everyone, offering accessible resources, forums, and courses to empower citizens in understanding their rights and justice.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  --bordo: #6B1A2A;
+  --bordo-dark: #4A1120;
+  --bordo-light: #8B2438;
+  --bordo-muted: #9B3A4A;
+  --gold: #C9A84C;
+  --gold-light: #E4C87A;
+  --cream: #FAF7F2;
+  --white: #FFFFFF;
+  --gray-light: #F5F1EC;
+  --gray-mid: #E8E0D6;
+  --gray-text: #6B5F5A;
+  --text-dark: #1A1210;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bordo-muted) transparent;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--bordo-muted); border-radius: 3px; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--cream);
+  color: var(--text-dark);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-display { font-family: 'Playfair Display', serif; }
+.font-body { font-family: 'Lato', sans-serif; }
+.font-mono { font-family: 'JetBrains Mono', monospace; }
